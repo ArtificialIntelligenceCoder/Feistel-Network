@@ -1,7 +1,7 @@
 # Feistel Network Encryption CLI
 
 ## Overview
-This is a command-line application written in Rust that uses a Feistel network encryption scheme with the Rijndael S-box (used in AES) for non-linearity. The application allows you to encrypt or decrypt files using a specified number of Feistel rounds. The application allows you to encrypt or decrypt files using a specified number of Feistel rounds.
+This is a command-line application written in Rust that uses a Feistel network encryption scheme with the Rijndael S-box (used in AES) for non-linearity. The application allows you to encrypt or decrypt files using a specified number of Feistel rounds.
 
 ## Rijndael S-box Explained
 The Rijndael S-box, used in this application, is a fundamental part of the AES encryption algorithm. It introduces non-linearity to the encryption process, making it more resistant to cryptanalytic attacks. The S-box is constructed using a combination of the multiplicative inverse in the Galois Field \( GF(2^8) \) and an affine transformation, ensuring strong non-linear substitution properties. This combination provides significant security by diffusing the bits and ensuring that small changes in the input propagate throughout the output. The Rijndael S-box is designed to be resistant to both linear and differential cryptanalysis, which are common techniques used to break simpler ciphers.

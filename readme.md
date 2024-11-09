@@ -61,8 +61,4 @@ This will create an executable in the `target/release` directory.
 - **Key Security**: The security of the encryption depends on the secrecy of `key.key`. Make sure to store it securely.
 - **File Overwriting**: The output file will be overwritten without any warning if it already exists. Be cautious when specifying output filenames.
 
-## Contact
-Author: OpenAI
-
-If you have questions or need support, feel free to reach out!
 
